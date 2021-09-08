@@ -60,13 +60,13 @@ class App extends React.Component<{}, State> {
 
   addRandomPerson = () => {
     const newPerson = {
-      name: 'Denys',
+      name: 'Eugene Gnedenko',
       sex: 'm',
       born: 1998,
       died: Infinity,
-      fatherName: 'Denys',
-      motherName: 'mother',
-      slug: 'Denys-Denys-1998',
+      fatherName: 'Yuri Gnedenko',
+      motherName: 'Natalia Gnedenko',
+      slug: 'eugene-gnedenko-1998',
     };
 
     this.setState(currentState => ({
